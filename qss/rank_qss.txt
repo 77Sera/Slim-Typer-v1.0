@@ -1,0 +1,4 @@
+*{
+font-family:Microsoft Yahei;
+font-size: 15px;
+}
