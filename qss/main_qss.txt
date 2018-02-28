@@ -1,0 +1,78 @@
+QMainWindow,#menubar{
+background-color: #CCFFCC;
+background-image: url(./source/pics/pic_bg.png);
+color: white;
+font-size: 20px
+}
+
+#ch_word_input,#sentence1_input,#sentence2_input,#sentence3_input,#en_word_input{
+border-radius:10px;
+border: 1px;
+font-family:Microsoft Yahei;
+font-size:28px
+}
+
+#ch_word_input,#en_word_input{
+padding-left: 45px
+}
+
+#ch_word_set,#sentence1_set,#sentence2_set,#sentence3_set,#en_word_set{
+font-family:Microsoft Yahei;
+font-size:28px
+}
+
+#radio_ch_word,#radio_ch_sentence,#radio_en_word,#radio_en_sentence{
+background-color: #99CC66;
+padding:15px;
+font-family: Microsoft Yahei;
+font-size:18px;
+border-radius: 10px;
+margin-right:5px;
+color: white;
+}
+
+#radio_ch_word:hover,#radio_ch_sentence:hover,#radio_en_word:hover,#radio_en_sentence:hover{
+background-color: #009966;
+}
+
+#radio_ch_word:checked,#radio_ch_sentence:checked,#radio_en_word:checked,#radio_en_sentence:checked{
+background-color: #FF6666;
+}
+
+#type_speed_set,#time_used_set,#label_3,#label_5{
+font-family: Microsoft Yahei;
+font-size:18px;
+}
+
+#label_welcome{
+color: green;
+font-size: 30px;
+margin-left: 90px;
+font-family: Microsoft Yahei;
+}
+
+#radio_key,#radio_type{
+font-family: Microsoft Yahei;
+font-size:18px;
+margin-right:24px;
+padding: 20px;
+padding-left:-16px;
+border-radius: 10px;
+background-color: #CC9966;
+color:white;
+}
+
+#radio_key:hover,#radio_type:hover{
+background-color:#99CCCC;
+}
+
+#btn_back,#btn_back_menu1{
+border:none;
+background-color: #f44336;
+color: white;
+border-radius: 8px;
+}
+
+#btn_back:hover,#btn_back_menu1:hover{
+background-color: #663333;
+}
